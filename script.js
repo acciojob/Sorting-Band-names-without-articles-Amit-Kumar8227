@@ -1,4 +1,6 @@
 let touristSpots = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
-touristSpots.sort();
-return touristSpots;
+let ans=touristSpots.split(",");
+ans.sort();
+return ans;
+
 
