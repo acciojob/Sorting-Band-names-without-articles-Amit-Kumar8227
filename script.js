@@ -1,7 +1,5 @@
-// let touristSpots = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
-// let ans=touristSpots.split(" ");
-// ans.sort();
-// console.log(ans);
+let touristSpots = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
+
 
 let bandNames = ['The Beatles', 'Led Zeppelin', 'Pink Floyd', 'The Rolling Stones', 'Metallica'];
 
@@ -17,7 +15,7 @@ return words.join(' ');
 });
 
 // Sort band names in lexicographic order
-bandNamesWithoutArticles.sort();
+touristSpots.sort();
 
 // Display band names inside ul id='band' tag using li tag
 const ulElement = document.getElementById('band');
@@ -28,6 +26,6 @@ ulElement.appendChild(liElement);
 });
 }
 
-sortBandNamesWithoutArticles(bandNames);
+sortBandNamesWithoutArticles(touristSpots);
 
 
